@@ -1,0 +1,124 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Montserrat+Alternates:wght@500&family=Montserrat:wght@500;800&family=Rubik+Mono+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Montserrat+Alternates:wght@500&family=Montserrat:wght@500;800&family=Rubik+Mono+One&family=Ubuntu:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+.container-fluid {
+    font-family: 'Montserrat Alternates', sans-serif;
+
+
+}
+#navbrad{
+    font-size: 2rem;
+}
+
+.nav-item{
+    font-size: 1.2rem;
+}
+#image{
+    padding-top: 4%;
+}
+
+/* content */
+
+.content-heder{
+    color: white;
+    font-size: 3rem;
+    font-family: 'Ubuntu';
+
+}
+
+.content-paragraph{
+    color: white;
+    font-family:'Ubuntu',cursive,itallic;
+    font-size: 1.5rem;
+    line-height: 1;
+}
+
+
+/* service section */
+#services{
+    margin-top: 5%;
+}
+.icon{
+    font-size: 4rem;
+}
+#button:hover{
+    color: azure;
+}
+
+
+
+/* progress */
+/* #progress1{ */
+    animation-name: asbin;
+    animation-duration: 2sec;
+    animation-iteration-count: 1;
+
+
+/* } */
+/* @keyframes asbin{ */
+    /* from{ */
+        /* width: 20px; */
+
+    /* } */
+    /* to{ */
+        /* width: 250px; */
+    /* } */
+/* } */
+
+/* media screen */
+/* put image in top and then info? */
+@media screen and (min-device-width: 390px) and (max-device-width: 786px) {
+
+    .content-paragraph{
+        line-height: 1;
+        
+    }
+    #image{
+        position: absolute;
+        
+        margin-top: 10%;
+        z-index: -1;
+
+    }
+    #info{
+        z-index: 2;
+        position: relative;
+
+    }
+    #about-us{
+        margin-top: 10%;
+    }
+
+
+    /* growth */
+    .line{
+        margin-top: 10%;
+    }
+    
+
+    .map{
+        margin-top: 5%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
